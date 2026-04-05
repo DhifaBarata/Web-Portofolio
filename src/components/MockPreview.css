@@ -1,0 +1,125 @@
+/* ============================================
+   STYLES: MockPreview (shared by MockDesktop & MockMobile)
+   File: src/components/MockPreview.css
+   ============================================ */
+
+/* === DESKTOP MOCK === */
+.mock-desktop {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #1a1a2e;
+  overflow: hidden;
+}
+
+.mock-titlebar {
+  height: 28px;
+  background: #0f0f1a;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.mock-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.mock-dot.red    { background: #ff5f57; }
+.mock-dot.yellow { background: #febc2e; }
+.mock-dot.green  { background: #28c840; }
+
+.mock-urlbar {
+  flex: 1;
+  height: 14px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 3px;
+  margin-left: 8px;
+}
+
+.mock-screen {
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+/* === MOBILE MOCK === */
+.mock-mobile {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.mock-phone {
+  width: 88px;
+  height: 158px;
+  background: #0a0a14;
+  border-radius: 18px;
+  border: 2px solid #2a2a3e;
+  overflow: hidden;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.phone-notch {
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 26px;
+  height: 5px;
+  background: #1a1a2e;
+  border-radius: 3px;
+  z-index: 2;
+}
+
+.phone-screen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  padding: 20px 8px 10px;
+}
+
+.phone-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.phone-title {
+  font-family: var(--font-display);
+  font-size: 0.38rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.phone-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 100%;
+  margin-top: 6px;
+}
+
+.phone-bar {
+  height: 6px;
+  border-radius: 2px;
+}
+
+.phone-cta {
+  width: 70%;
+  height: 12px;
+  border-radius: 4px;
+  margin-top: 4px;
+  opacity: 0.85;
+}
