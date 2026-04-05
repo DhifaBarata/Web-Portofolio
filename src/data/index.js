@@ -39,6 +39,7 @@ export const PROJECTS = [
     image: "/Inventago.png",   
     demo: "#",
     code: "https://github.com/DhifaBarata",
+    code: "#",
   },
 
 ];

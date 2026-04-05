@@ -1,3 +1,4 @@
+
 # Web Portofolio Dhifa Barata Putra
 
 Halo, selamat datang di repositori website portofolio pribadi **Dhifa Barata Putra**, mahasiswa **S1 Pendidikan Teknologi Informasi**. Website ini dibuat untuk menampilkan profil, keterampilan, proyek, pengalaman, dan informasi kontak secara modern, responsif, dan profesional.
@@ -35,3 +36,4 @@ portfolio-react/
         ├── Projects.jsx / .css   ← Daftar proyek dengan filter
         ├── Experience.jsx / .css ← Timeline pengalaman
         └── Contact.jsx / .css    ← Form kontak dan informasi pribadi
+=======
