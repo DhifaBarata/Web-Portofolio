@@ -66,7 +66,7 @@ export default function Hero() {
             <div className="avatar-ring ring-2" />
             <div className="avatar-img">
               {
-                <img src="/Fotoprofile.png" alt="Dhifa Barata Putra" />
+                <img src="/Fotoprofile.jpeg" alt="Dhifa Barata Putra" />
               }
               <span className="avatar-initials"></span>
             </div>
